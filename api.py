@@ -66,9 +66,7 @@ def categories(df_sorted):
     categories = ["12056", "19040", "19046", "10032", "13377", "18008", "11134"]
 
     for category in categories:
-
         category_df = pd.DataFrame(columns=["name", "distance", "lat", "lon", "category"])
-
         for index, row in df_sorted.iterrows():
             lat = row['lat']
             lon = row['lon']
@@ -90,17 +88,13 @@ def categories(df_sorted):
             category_df = category_df.append(new_list, ignore_index=True)
 
         dfs.append(category_df)
-
-        #### setting all values of the 4th dataframe (vegan restaurants) to vegan, because there are a lot of terms used here.
-
-        dfs[4]['category'] = 'vegan'
-
-        #### adding these 2 columns in the df[1] which were not added in the loop because it was an empty df.
-
-        dfs[1] = dfs[1].assign(company_name="", city="")
-        return dfs
     
-def count_category(df_sorted):
+
+    dfs[4]['category'] = 'vegan'
+    dfs[1] = dfs[1].assign(company_name="", city="")
+    return dfs
+    
+def count_category(df_sorted,dfs):
     
 # Here the idea is to count the number of locations for each category and for each office and add it to our main
 # dataframe, which is df_sorted. As you can see I do "df_sorted.columns[7:]" to start iterating on the 7th column,
@@ -118,6 +112,7 @@ def count_category(df_sorted):
 
         # Update the corresponding column in df_sorted with the counts
         df_sorted.iloc[:, i+7] = counts
+    return df_sorted
 
 
     
