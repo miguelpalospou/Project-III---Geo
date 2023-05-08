@@ -42,8 +42,7 @@ def factor_from_foursquare(one_element):
 
     
 
-    lat = row['lat']
-    lon = row['lon']
+    
     
     name = one_element["name"]
     distance = one_element["distance"]
@@ -76,8 +75,6 @@ def categories(df_sorted):
             name = row['company_name']
             city = row['city']
 
-
-
             response = query_from_foursquare("", lat, lon, 1000, category)
 
             new_list = []
@@ -86,8 +83,6 @@ def categories(df_sorted):
                 factor_dict['company_name'] = name
                 factor_dict['city'] = city
                 new_list.append(factor_dict)
-
-
 
             # append results to category dataframe
 
