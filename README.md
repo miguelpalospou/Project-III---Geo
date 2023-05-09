@@ -46,4 +46,14 @@ As a data engineer I have asked all the employees to show their preferences on w
 
 ## Results
 
-![plot](images/initial_map.html)
+<p align="center">
+  <img src="images/initial_map.html" width="1000" height="500">
+</p>
+
+
+
+
+
+
+
+
