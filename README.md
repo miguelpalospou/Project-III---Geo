@@ -48,11 +48,11 @@ As a data engineer I have asked all the employees to show their preferences on w
 
 
 
-![initial_map](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/initial_map.png)
+![initial_map](./images/initial_map.png)
 
-![final_map](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/final_map.png)
+![final_map](./images/final_map.png)
 
-![bar](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/bar.png)
+![bar](./images/bar.png)
 
 
 
