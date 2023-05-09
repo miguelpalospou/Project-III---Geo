@@ -44,3 +44,6 @@ As a data engineer I have asked all the employees to show their preferences on w
 ### 2. For more info about the functions see the other .py files
 
 
+## Results
+
+![plot](images/initial_map.html)

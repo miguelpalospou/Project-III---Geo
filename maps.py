@@ -2,7 +2,8 @@ import folium
 from folium import Choropleth, Circle, Marker, Icon, Map
 from folium.plugins import HeatMap, MarkerCluster
 import pandas as pd
-
+import matplotlib.pyplot as plt
+import plotly.express as px
 
 def initial_map(world_offices_data):
     
@@ -27,7 +28,7 @@ def initial_map(world_offices_data):
     # Add all the markers to the map
     for marker in markers:
         marker.add_to(usa_map)
-
+    usa_map.save("images/initial_map.html")
     return usa_map
 
 def final_map(dfs):
@@ -92,10 +93,11 @@ def final_map(dfs):
         # 3. Add a Marker per row
 
             new_marker.add_to(usa_map)
-
+        usa_map.save("images/final_map.html")
     return usa_map
 
 def bar_plot(df_sorted):
     fig = px.bar(df_sorted, x=df_sorted.company_name, y=df_sorted.weight_metric)
+    fig.write_html("images/bar_plot.html")
     fig.show()
     return fig
