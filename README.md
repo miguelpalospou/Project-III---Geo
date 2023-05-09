@@ -46,15 +46,14 @@ As a data engineer I have asked all the employees to show their preferences on w
 
 ## Results
 
-<p align="center">
 
-![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/initial_map.jpg)
 
-![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/final_map.jpg)
+![initial_map](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/initial_map.jpg)
 
-![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/bar.jpg)
+![final_map](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/final_map.jpg)
 
-<p/>
+![bar](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/bar.jpg)
+
 
 
 
