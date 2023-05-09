@@ -47,7 +47,7 @@ As a data engineer I have asked all the employees to show their preferences on w
 ## Results
 
 <p align="center">
- <iframe src="images/initial_map.html"></iframe>
+ <iframe src="initial_map.html"></iframe>
 </p>
 
 
