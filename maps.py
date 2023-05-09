@@ -94,3 +94,8 @@ def final_map(dfs):
             new_marker.add_to(usa_map)
 
     return usa_map
+
+def bar_plot(df_sorted):
+    fig = px.bar(df_sorted, x=df_sorted.company_name, y=df_sorted.weight_metric)
+    fig.show()
+    return fig

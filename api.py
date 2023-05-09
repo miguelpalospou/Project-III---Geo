@@ -112,6 +112,8 @@ def count_category(df_sorted,dfs):
 
         # Update the corresponding column in df_sorted with the counts
         df_sorted.iloc[:, i+7] = counts
+        df_sorted = df_sorted.assign(weight_metric="")
+        df_sorted["weight_metric"] = df_sorted.apply(lambda row: row["schools"]*0.2 + row["airports"]*0.2 + row["train stations"]*0.2 + row["clubs"]*0.1 + row["vegan places"]*0.1 + row["basketball places"]*0.1 + row["pet grooming"]*0.1, axis=1)
     return df_sorted
 
 
