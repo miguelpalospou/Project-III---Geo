@@ -47,9 +47,13 @@ As a data engineer I have asked all the employees to show their preferences on w
 ## Results
 
 <p align="center">
- <iframe src="initial_map.html"></iframe>
-</p>
+![final_map](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/initial_map.jpg)
 
+![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/final_map.jpg)
+
+![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-III-Geo/images/bar.jpg)
+
+<p/>
 
 
 <iframe src="images/initial_map.html" width="100%" height="500"></iframe>
